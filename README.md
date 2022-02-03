@@ -24,7 +24,7 @@ go build
 udp_forward 127.0.0.1 1024 8.8.8.8 53
 ```
 Args:
-* Listen host is 127.0.0.1 and listen port is 53
+* Listen host is 127.0.0.1 and listen port is 1024
 * Forward to host is 8.8.8.8 and forward port is 53
 
 > Note: Required sudo permission for listen port below 1024 
